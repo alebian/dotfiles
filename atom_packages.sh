@@ -7,7 +7,10 @@ function install_atom_packages {
   apm install file-icons
   apm install highlight-selected
   apm install ruby-slim
-  apm install linter-rubocop
+  apm install rubocop-auto-correct
+  apm install rails-i18n-autocomplete
+  apm install rails-partials
+  apm install color-picker
 }
 
 install_atom_packages
