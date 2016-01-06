@@ -11,6 +11,7 @@ function install_atom_packages {
   apm install rails-i18n-autocomplete
   apm install rails-partials
   apm install color-picker
+  apm install multi-cursor
 }
 
 install_atom_packages
