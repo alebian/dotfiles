@@ -12,6 +12,8 @@ function install_atom_packages {
   apm install rails-partials
   apm install color-picker
   apm install multi-cursor
+  apm install pretty-json
+  apm install atom-prettify
 }
 
 install_atom_packages
