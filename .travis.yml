@@ -1,0 +1,20 @@
+language: ruby
+rvm:
+  - 2.2.4
+  - 2.3.0
+
+install:
+  - gem install bundler
+  - bundle install --retry=3
+
+script:
+  - bundle exec rspec
+  - bundle exec rubocop -R --format simple
+
+addons:
+    code_climate:
+        repo_token:
+
+os:
+  - linux
+  - osx
