@@ -14,6 +14,7 @@ function install_atom_packages {
   apm install multi-cursor
   apm install pretty-json
   apm install atom-prettify
+  apm install rspec
 }
 
 install_atom_packages
