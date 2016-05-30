@@ -15,6 +15,7 @@ function install_atom_packages {
   apm install pretty-json
   apm install atom-prettify
   apm install rspec
+  apm install goto-definition
   apm install language-elixir
 }
 
