@@ -15,7 +15,7 @@ function install_atom_packages {
   apm install rspec
   apm install goto-definition
   apm install language-elixir
-  apm install labguage-rust
+  apm install language-rust
 }
 
 install_atom_packages
