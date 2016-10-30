@@ -6,4 +6,28 @@ function install_homebrew {
   brew upgrade
 }
 
+function install_packages {
+  brew install zsh
+  brew install gcc
+  brew install rbenv
+  brew install pyenv
+  brew install jenv
+  brew install nodenv
+  brew install erlang
+  brew install elixir
+  brew install git
+  brew install imagemagick
+  brew install nasm
+  brew install nginx
+  brew install openssl
+  brew install postgresql
+  brew install qemu
+  brew install redis
+  brew install rust
+  brew install vim
+  brew install wget
+  brew install wireshark
+}
+
 install_homebrew
+install_packages
