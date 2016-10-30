@@ -1,5 +1,6 @@
 # To find first the brew programs
 export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
 
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/alebian/.oh-my-zsh
@@ -94,3 +95,7 @@ eval "$(jenv init -)"
 # Enable pyenv
 export PYENV_ROOT=/usr/local/opt/pyenv
 eval "$(pyenv init -)"
+
+# Enable nodenv
+export NODENV_ROOT=/usr/local/var/nodenv
+eval "$(nodenv init -)"
