@@ -99,3 +99,7 @@ eval "$(pyenv init -)"
 # Enable nodenv
 export NODENV_ROOT=/usr/local/var/nodenv
 eval "$(nodenv init -)"
+
+# Enable exenv
+export PATH="$HOME/.exenv/bin:$PATH"
+eval "$(exenv init -)"
