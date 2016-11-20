@@ -27,6 +27,8 @@ function install_packages {
   brew install vim
   brew install wget
   brew install wireshark
+  brew install exenv
+  git clone git://github.com/mururu/elixir-build.git ~/.exenv/plugins/elixir-build
 }
 
 install_homebrew
