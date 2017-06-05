@@ -1,0 +1,10 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "editor.renderWhitespace": true,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "editor.rulers": [
+        99
+    ],
+    "workbench.colorTheme": "Monokai"
+}
