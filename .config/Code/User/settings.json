@@ -6,5 +6,8 @@
     "editor.rulers": [
         99
     ],
-    "workbench.colorTheme": "Monokai"
+    "workbench.colorTheme": "Monokai",
+    "window.zoomLevel": 0,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
 }
