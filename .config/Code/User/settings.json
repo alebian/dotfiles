@@ -9,5 +9,14 @@
     "workbench.colorTheme": "Monokai",
     "window.zoomLevel": 0,
     "editor.tabSize": 2,
-    "editor.insertSpaces": true
+    "editor.insertSpaces": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/node_modules": true,
+        "**/public/**/*": true
+    }
 }
