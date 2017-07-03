@@ -18,5 +18,6 @@
         "**/.DS_Store": true,
         "**/node_modules": true,
         "**/public/**/*": true
-    }
+    },
+    "editor.multiCursorModifier": "ctrlCmd"
 }
