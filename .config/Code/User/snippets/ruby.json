@@ -1,0 +1,7 @@
+{
+	"Do block": {
+		"prefix": "do",
+		"body": ["do", "\t$0", "end"],
+		"description": "Do block"
+	}
+}
