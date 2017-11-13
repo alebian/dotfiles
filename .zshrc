@@ -103,3 +103,12 @@ eval "$(nodenv init -)"
 # Enable exenv
 export PATH="$HOME/.exenv/bin:$PATH"
 eval "$(exenv init -)"
+
+eval $(thefuck --alias)
+
+alias be='bundle exec'
+alias co='git checkout'
+alias add='git add -A'
+alias br='git branch'
+
+xmodmap -e "keycode 169 = 0xffc9"
