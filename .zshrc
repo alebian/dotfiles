@@ -111,4 +111,10 @@ alias co='git checkout'
 alias add='git add -A'
 alias br='git branch'
 
+# Map eject key in mac keyboard to F12
 xmodmap -e "keycode 169 = 0xffc9"
+
+# Allow Kubernetes autocompletion
+if [ $commands[kubectl] ]; then
+  source <(kubectl completion zsh)
+fi
