@@ -6,12 +6,12 @@
   },
   "Context block": {
     "prefix": "context",
-    "body": ["context '' do", "\t$0", "end"],
+    "body": ["context 'when ' do", "\t$0", "end"],
     "description": "Context block"
   },
   "Describe block": {
     "prefix": "describe",
-    "body": ["describe '' do", "\t$0", "end"],
+    "body": ["describe '.' do", "\t$0", "end"],
     "description": "Describe block"
   }
 }
