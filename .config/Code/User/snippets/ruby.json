@@ -3,5 +3,15 @@
     "prefix": "do",
     "body": ["do", "\t$0", "end"],
     "description": "Do block"
+  },
+  "Context block": {
+    "prefix": "context",
+    "body": ["context '' do", "\t$0", "end"],
+    "description": "Context block"
+  },
+  "Describe block": {
+    "prefix": "describe",
+    "body": ["describe '' do", "\t$0", "end"],
+    "description": "Describe block"
   }
 }
