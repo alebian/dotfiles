@@ -13,5 +13,27 @@
     "prefix": "describe",
     "body": ["describe '.' do", "\t$0", "end"],
     "description": "Describe block"
+  },
+  "Let block": {
+    "prefix": "let",
+    "body": ["let(:$0) {  }"],
+    "description": "Let block"
+  }
+  ,
+  "Let do block": {
+    "prefix": "let do",
+    "body": ["let(:$0) do", "\t", "end"],
+    "description": "Let block"
+  },
+  "Subject block": {
+    "prefix": "subject",
+    "body": ["subject(:$0) {  }"],
+    "description": "Subject block"
+  }
+  ,
+  "Subject do block": {
+    "prefix": "subject do",
+    "body": ["subject(:$0) do", "\t", "end"],
+    "description": "Subject block"
   }
 }
