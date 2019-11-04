@@ -3,34 +3,52 @@
     "prefix": "do",
     "body": ["do", "\t$0", "end"],
     "description": "Do block"
+	},
+	"Do param block": {
+    "prefix": "do |",
+    "body": ["do |$0|", "\t", "end"],
+    "description": "Do block"
   },
   "Context block": {
     "prefix": "context",
-    "body": ["context 'when ' do", "\t$0", "end"],
+    "body": ["context 'when $0' do", "\t", "end"],
     "description": "Context block"
   },
   "Describe block": {
     "prefix": "describe",
-    "body": ["describe '.' do", "\t$0", "end"],
+    "body": ["describe '.$0' do", "\t", "end"],
     "description": "Describe block"
   },
   "Let block": {
     "prefix": "let",
     "body": ["let(:$0) {  }"],
     "description": "Let block"
-  }
-  ,
+  },
   "Let do block": {
     "prefix": "let do",
     "body": ["let(:$0) do", "\t", "end"],
     "description": "Let block"
+	},
+	"Let! block": {
+    "prefix": "let!",
+    "body": ["let!(:$0) {  }"],
+    "description": "Let block"
+  },
+  "Let! do block": {
+    "prefix": "let! do",
+    "body": ["let!(:$0) do", "\t", "end"],
+    "description": "Let block"
+	},
+	"It do block": {
+    "prefix": "it",
+    "body": ["id '$0' do", "\t", "end"],
+    "description": "It block"
   },
   "Subject block": {
     "prefix": "subject",
     "body": ["subject(:$0) {  }"],
     "description": "Subject block"
-  }
-  ,
+  },
   "Subject do block": {
     "prefix": "subject do",
     "body": ["subject(:$0) do", "\t", "end"],
