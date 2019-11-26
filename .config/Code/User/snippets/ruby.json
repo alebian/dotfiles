@@ -41,7 +41,7 @@
 	},
 	"It do block": {
     "prefix": "it",
-    "body": ["id '$0' do", "\t", "end"],
+    "body": ["it '$0' do", "\t", "end"],
     "description": "It block"
   },
   "Subject block": {
