@@ -4,7 +4,7 @@
     "files.trimTrailingWhitespace": true,
     "editor.tabSize": 2,
     "editor.insertSpaces": true,
-    "terminal.integrated.fontFamily": "Roboto Mono Medium for Powerline",
+    "terminal.integrated.fontFamily": "Fira Mono for Powerline",
     "workbench.iconTheme": "material-icon-theme",
     "files.insertFinalNewline": true,
     "editor.rulers": [
@@ -21,6 +21,5 @@
         "**/node_modules": true
     },
     "explorer.autoReveal": false,
-    "terminal.enableAppInsights": false,
-    "terminal.integrated.fontFamily": "Roboto Mono for Powerline"
+    "terminal.enableAppInsights": false
 }
