@@ -53,5 +53,10 @@
     "prefix": "subject do",
     "body": ["subject(:$0) do", "\t", "end"],
     "description": "Subject block"
+  },
+  "Rubocop disable": {
+    "prefix": "rubocop:disable",
+    "body": ["# rubocop:disable $0"],
+    "description": "Rubocop disable"
   }
 }
