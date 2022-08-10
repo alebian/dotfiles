@@ -1,11 +1,42 @@
-AllCops:
-  Exclude:
+require:
+  - rubocop-rspec
+  - rubocop-rails
+  - rubocop-performance
 
-Documentation:
+AllCops:
+  NewCops: enable
+  Exclude:
+    - db/schema.rb
+    - db/migrate/**/*
+    - bin/*
+    - vendor/**/*
+
+Style/Documentation:
   Enabled: false
 
-LineLength:
-  Max: 99
+Layout/LineLength:
+  Max: 100
 
-FrozenStringLiteralComment:
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/EachWithObject:
+  Enabled: false
+
+RSpec/NestedGroups:
+  Max: 6
+
+RSpec/MultipleMemoizedHelpers:
+  Enabled: false
+
+RSpec/Focus:
+  Enabled: false
+
+RSpec/AnyInstance:
+  Enabled: false
+
+Style/FormatStringToken:
+  Enabled: false
+
+Naming/VariableNumber:
   Enabled: false

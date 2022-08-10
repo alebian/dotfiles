@@ -3,8 +3,8 @@
     "prefix": "do",
     "body": ["do", "\t$0", "end"],
     "description": "Do block"
-	},
-	"Do param block": {
+  },
+  "Do param block": {
     "prefix": "do |",
     "body": ["do |$0|", "\t", "end"],
     "description": "Do block"
@@ -28,8 +28,8 @@
     "prefix": "let do",
     "body": ["let(:$0) do", "\t", "end"],
     "description": "Let block"
-	},
-	"Let! block": {
+  },
+  "Let! block": {
     "prefix": "let!",
     "body": ["let!(:$0) {  }"],
     "description": "Let block"
@@ -38,8 +38,8 @@
     "prefix": "let! do",
     "body": ["let!(:$0) do", "\t", "end"],
     "description": "Let block"
-	},
-	"It do block": {
+  },
+  "It do block": {
     "prefix": "it",
     "body": ["it '$0' do", "\t", "end"],
     "description": "It block"
