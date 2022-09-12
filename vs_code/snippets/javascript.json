@@ -1,0 +1,12 @@
+{
+	"Debugger": {
+		"prefix": "debug",
+		"body": ["debugger; // eslint-disable-line"],
+		"description": "Debugger statement"
+	},
+	"Console log": {
+		"prefix": "console",
+		"body": ["console.log($0); // eslint-disable-line"],
+		"description": "Console statement"
+	}
+}
