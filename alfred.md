@@ -5,3 +5,4 @@
 * RAE (rae): alfred://customsearch/RAE/rae/utf8/nospace/https%3A%2F%2Fdle.rae.es%2F%7Bquery%7D
 * Github (github): alfred://customsearch/Search%20for%20a%20github%20repository/github/utf8/nospace/https://github.com/search?q=%7Bquery%7D
 * Maven repository (maven): alfred://customsearch/Maven%20repositories/maven/utf8/nospace/https://mvnrepository.com/search?q=%7Bquery%7D
+* Whatsapp (wsp): alfred://customsearch/Whatsapp/wsp/utf8/nospace/https://web.whatsapp.com/send?phone=%7Bquery%7D
